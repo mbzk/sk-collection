@@ -1,0 +1,259 @@
+
+.topbar {
+    position: sticky;
+    height: auto;
+    align-items: center;
+    background-color: #D9DDDF;
+}
+.topbar li{
+    margin: 5px 5px 5px 5px;
+    display: inline;
+    list-style: none;
+}
+.social,.city,.sent{
+    padding-top: 10px;
+}
+
+.navbar{ 
+    position: -webkit-sticky;
+     position: sticky;
+    top: 0;
+}
+.navbar-nav{
+    text-align: center;
+}
+.navbar-brand{
+    margin-right: 200px;
+}
+
+.carousel ,.img1,.img2 ,.img3 {
+    width: 100%;
+
+}
+.maincard{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-bottom: 20px;
+ flex-wrap: wrap;   
+}
+
+.fa-truck,.fa-clock-o,.fa-headphones{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 42px !important;
+}
+.card1,.card2,.card3{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 300px;
+    background-color: #fff;
+    display:flex;
+    box-shadow: 2px 4px 5px lightgrey;
+}
+
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+       width: 100%;
+    }
+}
+
+.Items{
+    margin: 70px auto 40px auto;
+}
+
+.card{
+    margin-bottom: 40px;
+    width: 225px;
+    height: auto;
+}
+
+.navbar li :hover {
+    color: white;
+    background-color:#4DC4FF;
+    border-radius: 20px;
+}
+
+.slipper  :hover {
+    color: white;
+    background-color:#4DC4FF;
+    border-radius: 20px;
+}
+
+.cw,.card{
+    text-align: center !important;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color: lightgrey;
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .copyright1,.copyright {
+        text-align: center;
+      height: 180px;
+    }
+  }
+
+
+.card-text{
+    font-weight: bold !important;
+}
+.img1,.img2,.img3{
+    height: 480px !important; 
+}
+.fa-search{
+    position: relative;
+    
+    right: 40px;
+}
+.form-inline{
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.fa-user-circle-o{
+    
+    height: 20px;
+    width: 20px;
+    position: relative;
+    right: 0px;
+}
+.loginForm{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    size: 50%;
+    position: relative;
+    top: 50px;
+    right: 20px;
+    align-items: center !important;
+    padding-top: 50px;
+    margin-bottom: 50px !important; 
+
+}
+
+.username{
+    margin-bottom: 70px;
+    border: 3px solid blue;
+    border-radius: 10px;
+     padding-top: 20px;
+     padding-left: 20px;
+     padding-bottom: 20px;
+     padding-right: 20px;
+}
+.form-control{
+    width: 300px !important;
+}
+
+
+ 
+.logo1{
+    
+    padding-right: 4px;
+    border-width: 1px;
+}
+.form-group1{
+
+}
+.test{
+    box-shadow: 5px 5px 5px lightgrey;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid lightgrey;
+    width: 150px;
+    height: 50px;
+    margin-left: 5px !important;
+}
+.test2{
+    
+    box-shadow: 5px 5px 5px lightgrey;
+    margin-left: 5px !important;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    border: 2px solid lightgrey;
+    width: 150px;
+    height: 50px;
+    
+}
+ @media screen and (max-width:1150px) {
+
+    .form-control{
+        width: 250px !important;
+    }
+
+}
+@media screen and (max-width:1000px) {
+
+    .form-control{
+        width: 150px !important;
+    }
+
+}
+@media screen and (max-width:770px) {
+
+    .form-control{
+        width: 250px !important;
+    }
+
+}
+@media screen and (max-width:330px) {
+
+    .form-control{
+        width: 200px !important;
+    }
+
+} 
+@media screen and (max-width:280px) {
+
+    .test1, .test2, .form-control{
+        width: 150px !important;
+    }
+
+}
+
+@media screen and (max-width:230px) {
+
+    .form-control{
+        width: 80px !important;
+    }
+
+}
+
+.shirts{
+
+    border-radius: 10px;
+    margin-left: 100px !important;
+    width: 150px;
+    box-shadow: 4px 4px 4px lightgrey;
+    border: 2px solid lightgrey;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fs,.ot,.sp{
+    color: #0D64EA !important;
+}
+.copyright1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 100px;
+    background-color: lightgrey;
+    margin-top: 50px !important;
+}
